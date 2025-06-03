@@ -9,6 +9,10 @@ ECUPは、マーケティングにおけるアップリフトモデリングの�
 1. **Chain-bias問題**: ユーザー行動の連鎖（インプレッション→クリック→コンバージョン）において、各段階でのトリートメントの影響が異なることによるバイアス
 2. **Treatment-unadaptive問題**: 異なるトリートメントに対する特徴量の適応性の不足
 
+## 免責事項
+
+**注意**: この実装は論文の原著者によるものではありません。論文「Entire Chain Uplift Modeling with Context-Enhanced Learning for Intelligent Marketing」に基づく独立した実装です。公式実装については論文著者にお問い合わせください。
+
 ## 主要コンポーネント
 
 ECUPは以下の2つの主要コンポーネントで構成されています：
@@ -46,7 +50,7 @@ python src/train.py --config configs/ecup_config.yaml
 python src/evaluate.py --model_path /path/to/saved/model --test_data /path/to/test/data
 ```
 
-## 引用
+## 原論文の引用
 
 ```
 @inproceedings{huang2024entire,
