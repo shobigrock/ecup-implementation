@@ -1,0 +1,25 @@
+"""
+設定ファイル例
+"""
+# 学習設定
+data_dir: "/path/to/mt-lift"  # MT-LIFTデータセットのディレクトリパス
+output_dir: "./output"  # 出力ディレクトリ
+device: "cuda"  # 使用デバイス（"cuda" または "cpu"）
+
+# データ設定
+batch_size: 2048  # バッチサイズ
+test_size: 0.2  # テストデータの割合
+val_size: 0.1  # 検証データの割合
+random_seed: 42  # 乱数シード
+
+# モデル設定
+embedding_dim: 16  # 埋め込み表現の次元数
+hidden_dims: [128, 64, 32]  # 隠れ層の次元数リスト
+attention_dim: 8  # アテンション機構の次元数
+num_heads: 2  # マルチヘッドアテンションのヘッド数
+gamma: 1.0  # 調整係数
+
+# 学習設定
+learning_rate: 0.001  # 学習率
+num_epochs: 10  # エポック数
+eval_treatment_idx: 1  # 評価するトリートメントのインデックス
