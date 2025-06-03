@@ -9,6 +9,8 @@ ECUPは、マーケティングにおけるアップリフトモデリングの�
 1. **Chain-bias問題**: ユーザー行動の連鎖（インプレッション→クリック→コンバージョン）において、各段階でのトリートメントの影響が異なることによるバイアス
 2. **Treatment-unadaptive問題**: 異なるトリートメントに対する特徴量の適応性の不足
 
+![ECUP Architecture](images.png)
+
 ## 免責事項
 
 **注意**: この実装は論文の原著者によるものではありません。論文「Entire Chain Uplift Modeling with Context-Enhanced Learning for Intelligent Marketing」に基づく独立した実装です。公式実装については論文著者にお問い合わせください。
